@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GuruPB Feed</title>
+    <link>https://gurupb.samseen.dev</link>
+    <description>Latest content and architecture updates from GuruPB.</description>
+    <atom:link href="https://gurupb.samseen.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Nov 2026 06:24:26 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[The Anatomy of a Modern Guru Funnel]]></title>
+      <link>https://gurupb.samseen.dev/items/anatomy-of-a-guru-funnel/</link>
+      <guid>https://gurupb.samseen.dev/items/anatomy-of-a-guru-funnel/</guid>
+      <description><![CDATA[An educational guide breaking down the universal four-step sales pipeline used by online gurus across agency, crypto, and AI niches.]]></description>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Iman Gadzhi: SMMA to AI Funnel Deconstruction]]></title>
+      <link>https://gurupb.samseen.dev/items/iman-gadzhi/</link>
+      <guid>https://gurupb.samseen.dev/items/iman-gadzhi/</guid>
+      <description><![CDATA[An investigative breakdown of Iman Gadzhi's sales funnels, from early social media marketing agency courses to AI platform sponsorships and VIP upsells.]]></description>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Tai Lopez: The Prototype of the Modern Lifestyle Guru]]></title>
+      <link>https://gurupb.samseen.dev/items/tai-lopez/</link>
+      <guid>https://gurupb.samseen.dev/items/tai-lopez/</guid>
+      <description><![CDATA[A timeline and structural analysis of Tai Lopez, the pioneer of algorithmic luxury marketing on YouTube and master of continuous product pivots.]]></description>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[The Pivot Cycle: Why Gurus Hop Every 18 Months]]></title>
+      <link>https://gurupb.samseen.dev/items/the-pivot-cycle/</link>
+      <guid>https://gurupb.samseen.dev/items/the-pivot-cycle/</guid>
+      <description><![CDATA[Tracing the historical lineage of serial product pivoting from Don Lapre and Carlton Sheets to contemporary digital course creators.]]></description>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

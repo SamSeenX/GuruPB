@@ -1,0 +1,30 @@
+{
+  "name": "gurupb",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Public education and investigative archive of online guru sales funnels and playbooks",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node scripts/generate-og-cards.js && node scripts/generate-pages.js && node scripts/generate-changelog.js && node scripts/generate-robots.js && node scripts/generate-sitemap.js && node scripts/generate-feed.js && node scripts/sync-seo-meta.js && vite",
+    "compile": "node scripts/generate-og-cards.js && node scripts/generate-pages.js && node scripts/generate-changelog.js && node scripts/generate-robots.js && node scripts/generate-sitemap.js && node scripts/generate-feed.js && node scripts/sync-layout.js && node scripts/sync-seo-meta.js && vite build",
+    "build": "node scripts/optimize-images.js && node scripts/generate-og-cards.js && node scripts/generate-pages.js && node scripts/generate-changelog.js && node scripts/generate-robots.js && node scripts/generate-sitemap.js && node scripts/generate-feed.js && node scripts/run-cross-linking.js && node scripts/sync-layout.js && node scripts/sync-seo-meta.js && vite build",
+    "optimize:images": "node scripts/optimize-images.js",
+    "generate": "node scripts/generate-pages.js",
+    "generate:changelog": "node scripts/generate-changelog.js",
+    "generate:og": "node scripts/generate-og-cards.js",
+    "generate:robots": "node scripts/generate-robots.js",
+    "generate:sitemap": "node scripts/generate-sitemap.js",
+    "generate:feed": "node scripts/generate-feed.js",
+    "crosslink": "node scripts/run-cross-linking.js",
+    "sync:layout": "node scripts/sync-layout.js",
+    "sync:seo": "node scripts/sync-seo-meta.js",
+    "clean:demo": "node scripts/clean-demo.js",
+    "check:updates": "node scripts/check-updates.js",
+    "update": "node scripts/update-framework.js",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5",
+    "vite": "^6.2.0"
+  }
+}

@@ -1,0 +1,51 @@
+/* Content Page Layout & Prose Typography */
+.page-header {
+  padding: 2.5rem 0 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  font-size: 2.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose {
+  max-width: 760px;
+  margin-bottom: 4rem;
+}
+
+.prose p, .prose ul, .prose ol {
+  margin-bottom: 1.25rem;
+  color: var(--text-secondary);
+}
+
+.responsive-figure {
+  display: block;
+  margin: 1.75rem 0;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  background: var(--bg-surface);
+}
+
+.responsive-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+}
+
+.changelog-body h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px dashed var(--border-color);
+  color: var(--accent);
+}
+
+.changelog-body h3 {
+  font-size: 1.1rem;
+  margin-top: 1.25rem;
+  color: var(--accent-secondary);
+}

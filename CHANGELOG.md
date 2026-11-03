@@ -4,6 +4,15 @@ All notable changes to the Scam Guru Playbook project are documented in this fil
 
 ---
 
+## [1.1.0] - 2026-11-03
+
+### Added
+- **Interactive Red-Flag Evaluator**: Built a lightweight Vanilla JS calculator (`src/core/evaluator.js` and `src/styles/evaluator.css`) allowing users to check observed marketing patterns and compute an objective 5-tier funnel manipulation index.
+- **Accessible Touch Ergonomics**: Styled interactive evaluation inputs to meet 48px touch targets with keyboard navigation and focus rings.
+- **Global Error Logging**: Added resilient `window.onerror` and `window.onunhandledrejection` handlers in `src/main.js`.
+
+---
+
 ## [1.0.1] - 2026-11-03
 
 ### Changed

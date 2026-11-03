@@ -212,6 +212,67 @@
         </tbody>
       </table>
     </section>
+
+    <div class="page-header" style="border-bottom: 1px solid var(--border-color); padding-bottom: 1rem; margin-top: 2rem;">
+      <span class="editorial-eyebrow" style="margin-bottom: 0.25rem;">Interactive Tool</span>
+      <h2 style="font-size: 1.85rem;">Heuristic Manipulation Evaluator</h2>
+      <p style="color: var(--text-secondary); max-width: 680px; font-size: 1.05rem;">Select the promotional signals you have observed in any offer to calculate an objective funnel manipulation appraisal.</p>
+    </div>
+
+    <section class="evaluator-box">
+      <div class="evaluator-header">
+        <h3>Offer Assessment Checklist</h3>
+        <p>Review the five key hallmarks of high-ticket guru sales funnels:</p>
+      </div>
+
+      <form id="evaluator-form" class="evaluator-form" onsubmit="return false;">
+        <label class="eval-item">
+          <input type="checkbox" name="signal" value="status">
+          <span class="eval-label-text">
+            <span class="eval-title">Manufactured Status & Intimidation</span>
+            <span class="eval-desc">Promoter poses in rented luxury properties, exotic sports cars, or private jets to establish effortless wealth.</span>
+          </span>
+        </label>
+
+        <label class="eval-item">
+          <input type="checkbox" name="signal" value="challenge">
+          <span class="eval-label-text">
+            <span class="eval-title">Free Multi-Day Challenge or Summit</span>
+            <span class="eval-desc">Access to the core training is advertised as free, requiring extensive multi-day participation.</span>
+          </span>
+        </label>
+
+        <label class="eval-item">
+          <input type="checkbox" name="signal" value="microup">
+          <span class="eval-label-text">
+            <span class="eval-title">Micro-Upsells & VIP Friction</span>
+            <span class="eval-desc">Immediate prompts ask for small payments ($15 to $49) for VIP tickets, priority Q&A, or essential software tools.</span>
+          </span>
+        </label>
+
+        <label class="eval-item">
+          <input type="checkbox" name="signal" value="backend">
+          <span class="eval-label-text">
+            <span class="eval-title">High-Ticket Backend Escalation</span>
+            <span class="eval-desc">The free training culminates in an urgent pitch for an expensive annual community or mastermind ($1,500+).</span>
+          </span>
+        </label>
+
+        <label class="eval-item">
+          <input type="checkbox" name="signal" value="blame">
+          <span class="eval-label-text">
+            <span class="eval-title">Mindset Insulation & Liability Transfer</span>
+            <span class="eval-desc">Terms enforce non-refundable sales and the host insists failure is solely due to lack of personal work ethic.</span>
+          </span>
+        </label>
+      </form>
+
+      <div id="eval-result" class="eval-result">
+        <div id="eval-score" class="eval-result-score">0 of 5 Flags: Awaiting Assessment</div>
+        <p id="eval-message" class="eval-result-message">Check any of the signals observed in the promotion to calculate an objective manipulation appraisal.</p>
+        <button type="button" id="eval-reset" class="eval-reset-btn">Reset Assessment</button>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">

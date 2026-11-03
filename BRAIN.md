@@ -18,5 +18,5 @@ Scam Guru Playbook is an open, zero-hydration public education and investigative
 
 ## Roadmap & Milestones
 - **v1.0.0 (Zen Educational Launch)**: VanillaSSG scaffold, Scam Guru Playbook identity, zen layout with syllabus architecture, four core dossiers (Iman Gadzhi, Tai Lopez, Funnel Anatomy, The Pivot Cycle), dark/light theme, dynamic sitemap, and feed generation.
-- **v1.1.0 (Interactive Tools)**: Client-side Red Flag calculator and searchable dossier filtering.
-- **v1.2.0 (Public Records Archive)**: Regulatory enforcement repository and structured whistleblower tip intake.
+- **v1.1.0 (Interactive Evaluator)**: Built client-side Red Flag calculator and 5-tier manipulation appraisal tool with global error logging.
+- **v1.2.0 (Search & Public Archive)**: Searchable dossier filtering and regulatory enforcement archive.

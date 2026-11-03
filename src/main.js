@@ -1,4 +1,14 @@
 import { themeManager } from './core/theme-manager.js';
+import { initEvaluator } from './core/evaluator.js';
+
+function initGlobalErrors() {
+  window.addEventListener('error', (e) => {
+    console.error('[Global Error]', e.message);
+  });
+  window.addEventListener('unhandledrejection', (e) => {
+    console.error('[Unhandled Rejection]', e.reason);
+  });
+}
 
 function initMobileMenu() {
   const menuBtn = document.getElementById('mobile-menu-btn');
@@ -45,7 +55,9 @@ function initCopyButtons() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  initGlobalErrors();
   themeManager.init();
   initMobileMenu();
   initCopyButtons();
+  initEvaluator();
 });

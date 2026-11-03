@@ -8,8 +8,8 @@ export function getFooterHtml() {
   return `<footer class="site-footer">
   <div class="footer-container">
     <div class="footer-brand">
-      <div class="footer-logo">🛡️ GuruPB</div>
-      <p class="footer-tagline">Consumer education and structural deconstructions of online guru playbooks and digital funnels.</p>
+      <div class="footer-logo" style="font-family: var(--font-serif); font-size: 1.15rem; font-weight: 600;">📖 Scam Guru Playbook</div>
+      <p class="footer-tagline">An open public education archive deconstructing digital persuasion, high-ticket funnels, and modern online guru playbooks.</p>
     </div>
     <nav class="footer-nav" aria-label="Footer Navigation">
       <div class="footer-col">
@@ -31,7 +31,7 @@ export function getFooterHtml() {
     </nav>
   </div>
   <div class="footer-bottom">
-    <p>&copy; ${currentYear} GuruPB. Built for consumer education, digital transparency, and public research.</p>
+    <p>&copy; ${currentYear} Scam Guru Playbook. Dedicated to public awareness, educational analysis, and consumer protection.</p>
   </div>
 </footer>`;
 }

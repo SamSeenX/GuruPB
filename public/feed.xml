@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GuruPB Feed</title>
+    <title>Scam Guru Playbook Feed</title>
     <link>https://gurupb.samseen.dev</link>
-    <description>Latest content and architecture updates from GuruPB.</description>
+    <description>Latest content and architecture updates from Scam Guru Playbook.</description>
     <atom:link href="https://gurupb.samseen.dev/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 03 Nov 2026 06:24:26 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 06:39:27 GMT</lastBuildDate>
     <item>
       <title><![CDATA[The Anatomy of a Modern Guru Funnel]]></title>
       <link>https://gurupb.samseen.dev/items/anatomy-of-a-guru-funnel/</link>

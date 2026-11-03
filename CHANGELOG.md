@@ -1,14 +1,24 @@
-# Changelog: GuruPB
+# Changelog: Scam Guru Playbook
 
-All notable changes to the GuruPB project are documented in this file.
+All notable changes to the Scam Guru Playbook project are documented in this file.
+
+---
+
+## [1.0.1] - 2026-11-03
+
+### Changed
+- **Branding Update**: Formally adopted the name **Scam Guru Playbook** across page metadata, headings, navigation landmarks, and OpenGraph assets.
+- **Zen Educational Aesthetics**: Replaced developer SaaS styling (dark neon cards, terminal command prompt, and large numeric stats) with a warm paper canvas, sumi ink typography, and an annotated syllabus flow.
+- **Editorial Typography**: Integrated classic serif display fonts (Charter / Georgia) with comfortable reading margins and open line spacing.
+- **Syllabus Architecture**: Formatted the 4-Stage Guru Funnel into an annotated field guide layout with distinct narrative steps.
 
 ---
 
 ## [1.0.0] - 2026-11-03
 
 ### Added
-- **Project Genesis**: Initialized GuruPB using VanillaSSG zero-hydration static site architecture.
-- **Investigative Landing Page**: Designed high-contrast homepage introducing the 4-stage funnel model (The Hook, The Shovel, The Trap, The Shield), recent dossier highlights, and a consumer red-flags checklist.
+- **Project Genesis**: Initialized using VanillaSSG zero-hydration static site architecture.
+- **Investigative Landing Page**: Designed homepage introducing the 4-stage funnel model, recent dossier highlights, and a consumer red-flags checklist.
 - **Investigative Case Studies**:
   - `iman-gadzhi.md`: Detailed case study on the pivot from SMMA agency blueprints to AI challenges, micro-upsells, and high-ticket mastermind packages.
   - `tai-lopez.md`: Blueprint analysis tracking the archetype from the garage Lamborghini campaign to crypto, NFTs, and retail liquidations.

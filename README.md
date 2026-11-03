@@ -1,12 +1,12 @@
-# GuruPB: Deconstructing Online Guru Playbooks & Funnels
+# Scam Guru Playbook: Deconstructing Digital Persuasion & Funnels
 
 <p align="center">
   <br>
-  <span style="font-size: 3.5rem;">🛡️</span>
-  <h1 align="center">GuruPB</h1>
+  <span style="font-size: 3.5rem;">📖</span>
+  <h1 align="center">Scam Guru Playbook</h1>
   <p align="center"><strong>Public Education & Investigative Archive of Online Guru Marketing Funnels</strong></p>
   <p align="center">
-    Zero-Hydration Static Architecture &bull; Sub-200-Line Modularity &bull; Automated SEO &bull; Built with VanillaSSG
+    Zero-Hydration Static Architecture &bull; Zen Educational Design &bull; Sub-200-Line Modularity &bull; Built with VanillaSSG
   </p>
 </p>
 
@@ -14,7 +14,7 @@
 
 ## Overview
 
-GuruPB is a public consumer education directory built to analyze and document the mechanics of online guru funnels, status intimidation marketing, and repetitive product pivots across dropshipping, agency courses, crypto, and AI summits.
+Scam Guru Playbook is an open public consumer education archive built to analyze and document the mechanics of online guru funnels, status intimidation marketing, and repetitive product pivots across dropshipping, agency courses, crypto, and AI summits.
 
 Like independent investigative creators in the digital space, GuruPB relies on primary source evidence, archived marketing funnels, corporate registry filings, and regulatory records.
 

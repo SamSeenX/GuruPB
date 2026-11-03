@@ -40,7 +40,7 @@ function generateItemPage(item) {
   const footerHtml = getFooterHtml();
   const ogImageUrl = `${SITE_URL}/og/${item.id}.svg`;
   const seoMetaHtml = getSeoMetaHtml({
-    title: `${item.title} | GuruPB`,
+    title: `${item.title} | Scam Guru Playbook`,
     description: item.description,
     path: canonicalPath,
     image: ogImageUrl,
@@ -65,7 +65,7 @@ function generateItemPage(item) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${item.title} | GuruPB</title>
+  <title>${item.title} | Scam Guru Playbook</title>
   <meta name="description" content="${item.description}">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="stylesheet" href="/src/styles/main.css">
@@ -101,8 +101,8 @@ function generateArchivePage(items) {
   const headerHtml = getHeaderHtml(currentPath);
   const footerHtml = getFooterHtml();
   const seoMetaHtml = getSeoMetaHtml({
-    title: 'Guru Dossiers & Playbook Deconstructions | GuruPB',
-    description: 'Investigative breakdowns of online course funnels, high-ticket upsells, and digital guru marketing tactics.',
+    title: 'Dossiers & Funnel Deconstructions | Scam Guru Playbook',
+    description: 'Investigative breakdowns and educational case studies of online course funnels and high-ticket marketing tactics.',
     path: currentPath,
     type: 'website'
   });
@@ -126,8 +126,8 @@ function generateArchivePage(items) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guru Dossiers & Playbook Deconstructions | GuruPB</title>
-  <meta name="description" content="Investigative breakdowns of online course funnels, high-ticket upsells, and digital guru marketing tactics.">
+  <title>Dossiers & Funnel Deconstructions | Scam Guru Playbook</title>
+  <meta name="description" content="Investigative breakdowns and educational case studies of online course funnels and high-ticket marketing tactics.">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="stylesheet" href="/src/styles/main.css">
 ${seoMetaHtml}

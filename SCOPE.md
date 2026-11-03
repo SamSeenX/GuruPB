@@ -1,7 +1,8 @@
-# Scope & Feature Boundary: GuruPB
+# Scope & Feature Boundary: Scam Guru Playbook
 
 ## Current Scope (v1.0.0 Starter)
 - Zero-Hydration static site generated via VanillaSSG
+- Zen educational layout with warm paper palette and annotated syllabus structure
 - Landing page with 4-stage funnel breakdown and red-flags table
 - Investigative Dossiers:
   - Iman Gadzhi: SMMA to AI Funnel Deconstruction
@@ -19,5 +20,5 @@
 - **Whistleblower / Victim Submission Form**: Encrypted or anonymized intake pipeline for course buyer contract terms and upsell records.
 
 ## Out of Scope
-- User account creation, personal profiles, or paywalls (GuruPB remains 100% free and open public education).
+- User account creation, personal profiles, or paywalls (Scam Guru Playbook remains 100% free and open public education).
 - Unverified gossip, personal relationship drama, or unsubstantiated accusations lacking commercial or legal relevance.

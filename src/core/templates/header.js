@@ -10,9 +10,9 @@ export function getHeaderHtml(currentPath = '/') {
 
   return `<header class="site-header">
   <div class="header-container">
-    <a href="/" class="brand-logo" aria-label="GuruPB Home">
-      <span class="logo-icon">🛡️</span>
-      <span class="logo-text">GuruPB</span>
+    <a href="/" class="brand-logo" aria-label="Scam Guru Playbook Home">
+      <span class="logo-icon">📖</span>
+      <span class="logo-text" style="font-family: var(--font-serif); font-size: 1.15rem; font-weight: 600;">Scam Guru Playbook</span>
     </a>
     ${navHtml}
     <div class="header-actions">

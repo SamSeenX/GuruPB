@@ -1,51 +1,36 @@
-/* Component Styling: Hero, Architectural Grid, Buttons, Prose, Cross-Links */
+/* Component Styling: Zen Educational Layout & Syllabus */
 
-/* Hero Section */
+/* Editorial Hero */
 .hero {
-  padding: 4rem 0 2rem;
+  padding: 4.5rem 0 3rem;
+  max-width: var(--reading-width);
+  margin: 0 auto;
   text-align: center;
 }
 
-.status-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.35rem 0.85rem;
-  border-radius: var(--radius-sm);
-  background-color: var(--accent-light);
-  border: 1px solid var(--accent);
-  font-family: var(--font-mono);
-  font-size: 0.78rem;
-  font-weight: 700;
-  color: #14532d;
-  margin-bottom: 1.25rem;
-}
-
-[data-theme="dark"] .status-pill {
-  color: var(--accent);
-}
-
-.status-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: var(--accent);
+.editorial-eyebrow {
+  display: inline-block;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--accent-secondary);
+  margin-bottom: 1rem;
+  letter-spacing: 0.02em;
 }
 
 .hero h1 {
-  font-size: clamp(2.2rem, 5.5vw, 3.6rem);
-  letter-spacing: -0.04em;
-  line-height: 1.1;
-  margin-bottom: 1.2rem;
-  font-weight: 800;
+  font-size: clamp(2.2rem, 4.5vw, 3.4rem);
+  line-height: 1.2;
+  margin-bottom: 1.4rem;
+  color: var(--text-primary);
+  font-weight: 600;
 }
 
 .hero p {
   font-size: 1.15rem;
   color: var(--text-secondary);
-  max-width: 640px;
-  margin: 0 auto 1.8rem;
-  line-height: 1.6;
+  line-height: 1.75;
+  margin-bottom: 2.2rem;
 }
 
 .hero-actions {
@@ -53,16 +38,16 @@
   gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 2.2rem;
+  margin-bottom: 1rem;
 }
 
 .btn {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.75rem 1.6rem;
+  padding: 0.8rem 1.6rem;
   border-radius: var(--radius-sm);
-  font-weight: 700;
+  font-weight: 600;
   font-size: 0.95rem;
   text-decoration: none;
   transition: all var(--transition-fast);
@@ -78,6 +63,10 @@
   border: 1px solid var(--accent);
 }
 
+[data-theme="dark"] .btn-primary {
+  color: #111416;
+}
+
 .btn-primary:hover {
   background-color: var(--accent-hover);
   border-color: var(--accent-hover);
@@ -90,53 +79,60 @@
 }
 
 .btn-secondary:hover {
-  border-color: var(--accent-secondary);
-  color: var(--accent-secondary);
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
-/* Continuous Hairline Ledger Grid (Replaces Generic SaaS Cards) */
-.ledger-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 1px;
-  background-color: var(--border-color);
+/* Zen Syllabus: The 4-Stage Architecture */
+.syllabus-flow {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 2.5rem 0 4rem;
+}
+
+.syllabus-step {
+  background-color: var(--bg-surface);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-md);
-  overflow: hidden;
-  margin: 3.5rem 0;
+  padding: 1.75rem 2rem;
+  box-shadow: var(--card-shadow);
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 1.5rem;
+  align-items: baseline;
 }
 
-.ledger-item {
-  background-color: var(--bg-surface);
-  padding: 2rem 1.75rem;
-  position: relative;
-}
-
-.ledger-meta {
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  font-weight: 700;
+.syllabus-num {
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
+  font-style: italic;
   color: var(--accent-secondary);
-  letter-spacing: 0.08em;
-  margin-bottom: 0.85rem;
+  line-height: 1;
 }
 
-.ledger-item h3 {
-  font-size: 1.25rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  margin-bottom: 0.6rem;
+.syllabus-content h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
 }
 
-.ledger-item p {
+.syllabus-content p {
   color: var(--text-secondary);
-  font-size: 0.92rem;
-  line-height: 1.55;
+  font-size: 0.98rem;
+  line-height: 1.7;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 680px) {
+  .hero {
+    padding: 3rem 0 2rem;
+  }
   .hero-actions .btn {
     width: 100%;
     justify-content: center;
+  }
+  .syllabus-step {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+    padding: 1.5rem;
   }
 }

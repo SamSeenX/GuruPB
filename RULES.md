@@ -1,4 +1,4 @@
-# Project Rules: GuruPB
+# Project Rules: Scam Guru Playbook
 
 ## 1. Modular Architecture & 200-Line Limit
 - Every code file (`.js`, `.css`) must strictly target under 200 lines of code.
